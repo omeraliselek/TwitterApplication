@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApplication.UI", "TwitterApplication.UI\TwitterApplication.UI.csproj", "{9F6B1BD8-577A-421F-800B-7BD3AED8CCD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApplication.Core", "TwitterApplication.Core\TwitterApplication.Core.csproj", "{509C13AE-D511-4D16-8BE2-D3EBFBCA38E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApplication.Model", "TwitterApplication.Model\TwitterApplication.Model.csproj", "{A1DD68CC-385E-4C59-BB98-06861E521194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApplication.Map", "TwitterApplication.Map\TwitterApplication.Map.csproj", "{25E2A0B0-78CB-42A6-B879-E6B8F3EEBA9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApplication.Utility", "TwitterApplication.Utility\TwitterApplication.Utility.csproj", "{B031F66C-CE67-4A3A-B90B-BCA966091655}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{9F6B1BD8-577A-421F-800B-7BD3AED8CCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F6B1BD8-577A-421F-800B-7BD3AED8CCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F6B1BD8-577A-421F-800B-7BD3AED8CCD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509C13AE-D511-4D16-8BE2-D3EBFBCA38E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509C13AE-D511-4D16-8BE2-D3EBFBCA38E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509C13AE-D511-4D16-8BE2-D3EBFBCA38E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509C13AE-D511-4D16-8BE2-D3EBFBCA38E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DD68CC-385E-4C59-BB98-06861E521194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DD68CC-385E-4C59-BB98-06861E521194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DD68CC-385E-4C59-BB98-06861E521194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DD68CC-385E-4C59-BB98-06861E521194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E2A0B0-78CB-42A6-B879-E6B8F3EEBA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E2A0B0-78CB-42A6-B879-E6B8F3EEBA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E2A0B0-78CB-42A6-B879-E6B8F3EEBA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E2A0B0-78CB-42A6-B879-E6B8F3EEBA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B031F66C-CE67-4A3A-B90B-BCA966091655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B031F66C-CE67-4A3A-B90B-BCA966091655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B031F66C-CE67-4A3A-B90B-BCA966091655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B031F66C-CE67-4A3A-B90B-BCA966091655}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
